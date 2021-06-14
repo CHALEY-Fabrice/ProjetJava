@@ -69,9 +69,9 @@ public class Main {
                         String refLocal = scanner.nextLine();
                        
                         lo = service.searchLocal(refLocal);
-                        if(lc != null){
+                        if(lo != null){
                             System.out.print("Donnees du local : ");
-                            System.out.println(lc.afficher());
+                            System.out.println(lo.afficher());
                         }else{
                             System.out.print("Erreur de reference");          
                         }
@@ -81,9 +81,9 @@ public class Main {
                         String refLocal = scanner.nextLine();
                        
                         lo = service.searchLocal(refLocal);
-                        if(lc != null){
+                        if(lo != null){
                             System.out.print("Donnees du local : ");
-                            System.out.println(lc.afficher());
+                            System.out.println(lo.afficher());
                         }else{
                             System.out.print("Erreur de reference");          
                         }
